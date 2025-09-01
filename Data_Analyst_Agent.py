@@ -1,7 +1,7 @@
 '''
 If for privacy reason you don't trust the app use your own API key.
 Change the API key at ".env"
-If you can`t mail me at varunputta1511@gmail.com (I'll send you the key)
+If you can`t mail me at sadhakmp11@gmail.com (I'll send you the key)
 '''
 
 import os
@@ -545,7 +545,7 @@ def create_streamlit_ui():
         layout="wide",
         initial_sidebar_state="expanded",
         menu_items={
-            'About': "AI-powered document analysis tool by Varun Putta"
+            'About': "AI-powered document analysis tool by sadhak phanse"
         }
     )
     
@@ -1277,7 +1277,7 @@ def create_streamlit_ui():
     <div class="main-header">
         <h1>🤖 AI Data Analyst {theme_indicator}</h1>
         <p style="font-size: 1.2em; margin: 0;">Transform your documents into actionable insights with AI</p>
-        <p style="opacity: 0.9; margin: 0.5rem 0 0 0;">Built by Varun Putta | Powered by Meta Llama & Together AI | {st.session_state.theme_mode.title()} Mode</p>
+        <p style="opacity: 0.9; margin: 0.5rem 0 0 0;">Built by sadhak phanse | Powered by Meta Llama & Together AI | {st.session_state.theme_mode.title()} Mode</p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -1393,7 +1393,7 @@ def create_streamlit_ui():
         # App info
         st.markdown("---")
         st.markdown("**🤖 AI Document Analyst v2.0**")
-        st.markdown("Built by Varun Putta")
+        st.markdown("Built by sadhak phanse")
         st.markdown("Powered by Together AI")
     
     # Main content area with tabs
